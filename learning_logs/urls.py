@@ -11,5 +11,5 @@ urlpatterns = [
     url(r'^topics/$', views.topics, name='topics'),
 
     # 特定主题的详细页面
-    url(r'^topics/(?P<topic_id>\d+)$', views.topic, name='topic'),/
+    url(r'^topics/(?P<topic_id>\d+)$', views.topic, name='topic'),
 ]
